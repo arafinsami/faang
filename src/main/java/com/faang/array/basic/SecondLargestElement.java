@@ -1,0 +1,25 @@
+package com.faang.array.basic;
+
+public class SecondLargestElement {
+	public static void main(String[] args) {
+		int[] array = { 1, 2, 3, 4, 5, 6, 7 };
+		int length = array.length;
+		int largest = Integer.MIN_VALUE;
+		int secondLargest = Integer.MIN_VALUE;
+
+		for (int i = 0; i < length; i++) {
+			if (array[i] > largest) {
+				largest = array[i];
+			}
+		}
+
+		for (int i = 0; i < length; i++) {
+			if (array[i] > secondLargest && array[i] != largest) {
+				secondLargest = array[i];
+			}
+		}
+
+		System.out.println(largest);
+		System.out.println(secondLargest);
+	}
+}
