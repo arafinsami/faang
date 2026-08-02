@@ -3,7 +3,7 @@ package com.faang.array.basic;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Union {
+public class _04_02_Union {
 	public static void main(String[] args) {
 		int[] array1 = { 1, 3, 5 };
 		int[] array2 = { 2, 4, 6 };

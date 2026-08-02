@@ -1,6 +1,6 @@
 package com.faang.array.basic;
 
-public class LeftRotate_Method_2 {
+public class _03_01_RightRotate_Method {
 	public static void main(String[] args) {
 		int[] array = { 1, 2, 3, 4, 5, 6, 7 };
 		int length = array.length;

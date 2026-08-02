@@ -3,7 +3,7 @@ package com.faang.array.basic;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FindDuplicates {
+public class _02_03_FindDuplicates {
 	public static void main(String[] args) {
 		int[] array = { 1, 4, 2, 2, 2, 7, 7, 9, 9, 7 };
 		int length = array.length;
