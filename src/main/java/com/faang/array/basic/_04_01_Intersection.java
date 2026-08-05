@@ -14,6 +14,8 @@ public class _04_01_Intersection {
 		for (Integer num : array2) {
 			if (intersection.contains(num)) {
 				System.out.println(num);
+			} else {
+				intersection.add(num);
 			}
 		}
 	}

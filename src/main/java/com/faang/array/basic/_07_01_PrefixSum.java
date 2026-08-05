@@ -3,7 +3,6 @@ package com.faang.array.basic;
 import java.util.Arrays;
 
 /**
- * Let's walk through the Prefix Sum algorithm with a small input.
  *
  * Input: int[] arr = {2, 4, 6};
  *
@@ -18,7 +17,6 @@ import java.util.Arrays;
  * prefix = [0, 0, 0]
  *
  * The prefix array is filled with zeros by default.
- *
  *
  * Step 2: Initialize the First Element
  *
