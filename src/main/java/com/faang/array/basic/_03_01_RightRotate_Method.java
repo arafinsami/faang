@@ -6,9 +6,9 @@ public class _03_01_RightRotate_Method {
 		int length = array.length;
 		int k = 3;
 		k = k % length;
+		reverse(array, 0, length - 1);
 		reverse(array, 0, k - 1);
 		reverse(array, k, length - 1);
-		reverse(array, 0, length - 1);
 		for (int i = 0; i < length; i++) {
 			System.out.println(array[i]);
 		}
