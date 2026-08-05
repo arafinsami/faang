@@ -108,7 +108,7 @@ package com.faang.array.basic;
  */
 public class _07_02_EquilibriumIndex {
 	public static void main(String[] args) {
-		int[] arr = { 1, 3, 5, 2, 2 };
+		int[] arr = {2, 4, 2};
 		int prefix = findEquilibrium(arr);
 		System.out.println(prefix);
 	}
