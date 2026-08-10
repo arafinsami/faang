@@ -67,24 +67,9 @@ public class _07_04_Template_1_SubArrays {
 	public static void main(String[] args) {
 		int[] arr = { 1, 4, 2 };
 		int length = arr.length;
-		// Choose starting index
 		for (int left = 0; left < length; left++) {
-			// Choose ending index
 			for (int right = left; right < length; right++) {
-				// Print current subarray
-				System.out.print("left=" + left);
-				System.out.print(", right=" + right);
-				System.out.print(" -> [");
-				// Print elements from left to right
-				for (int i = left; i <= right; i++) {
-
-					System.out.print(arr[i]);
-
-					if (i < right) {
-						System.out.print(",");
-					}
-				}
-				System.out.println("]");
+				//continue code	
 			}
 		}
 	}
