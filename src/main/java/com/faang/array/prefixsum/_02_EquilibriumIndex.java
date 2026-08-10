@@ -1,4 +1,4 @@
-package com.faang.array.basic;
+package com.faang.array.prefixsum;
 
 /**
  * Input:
@@ -106,7 +106,7 @@ package com.faang.array.basic;
  * Both values are obtained in O(1),
  * making the entire algorithm run in O(n) time.
  */
-public class _07_02_EquilibriumIndex {
+public class _02_EquilibriumIndex {
 	public static void main(String[] args) {
 		int[] arr = {2, 4, 2};
 		int prefix = findEquilibrium(arr);

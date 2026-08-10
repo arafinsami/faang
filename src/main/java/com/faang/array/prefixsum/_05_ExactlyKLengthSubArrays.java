@@ -1,6 +1,6 @@
-package com.faang.array.basic;
+package com.faang.array.prefixsum;
 
-public class _07_05_ExactlyKLengthSubArrays {
+public class _05_ExactlyKLengthSubArrays {
 
 	/**
      * CHILD PROBLEM 2

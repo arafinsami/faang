@@ -1,4 +1,4 @@
-package com.faang.array.basic;
+package com.faang.array.prefixsum;
 
 import java.util.Arrays;
 
@@ -119,7 +119,7 @@ import java.util.Arrays;
  *
  * This is why the Prefix Sum algorithm runs in O(n) time.
  */
-public class _07_01_PrefixSum {
+public class _01_PrefixSum {
 
 	public static void main(String[] args) {
 		int[] arr = { 1, 3, 5, 2, 2 };

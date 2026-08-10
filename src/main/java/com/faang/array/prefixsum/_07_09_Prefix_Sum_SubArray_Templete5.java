@@ -1,8 +1,10 @@
-package com.faang.array.basic;
+package com.faang.array.prefixsum;
 
-public class _07_08_Prefix_Sum_SubArray_Templete4 {
-    public static void main(String[] args) {
+public class _07_09_Prefix_Sum_SubArray_Templete5 {
+public static void main(String[] args) {
         int[] arr = { 1, 4, 2 };
+        int k = 3;
+        int count=0;
         int length = arr.length;
         int[] prefix = new int[length];
         prefix[0] = arr[0];
@@ -17,10 +19,13 @@ public class _07_08_Prefix_Sum_SubArray_Templete4 {
                 } else {
                     sum = prefix[right] - prefix[left - 1];
                 }
+                if(sum>k){
+                    count++;
+                }
                 System.out.println(
 	                        "left = " + left +
 	                        ", right = " + right +
-	                        ", sum = " + sum);
+	                        ", count = " + count);
             }
         }
     }

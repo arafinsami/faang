@@ -1,6 +1,6 @@
-package com.faang.array.basic;
+package com.faang.array.prefixsum;
 
-public class _07_03_AllSubArrays {
+public class _03_AllSubArrays {
 
 	public static void main(String[] args) {
 		int[] arr = { 1, 4, 2, 5, 3 };

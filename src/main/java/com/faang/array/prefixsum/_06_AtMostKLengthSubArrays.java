@@ -1,4 +1,4 @@
-package com.faang.array.basic;
+package com.faang.array.prefixsum;
 
 /**
  * CHILD PROBLEM 3
@@ -71,7 +71,7 @@ package com.faang.array.basic;
  *       OR
  * equal to K
  */
-public class _07_06_AtMostKLengthSubArrays {
+public class _06_AtMostKLengthSubArrays {
 	public static void main(String[] args) {
 		int[] arr = { 1, 4, 2, 5, 3 };
 		int k = 3;

@@ -1,4 +1,4 @@
-package com.faang.array.basic;
+package com.faang.array.prefixsum;
 
 
 /**
@@ -63,7 +63,7 @@ package com.faang.array.basic;
  * because the ending index cannot come
  * before the starting index.
  */
-public class _07_04_Template_1_SubArrays {
+public class _04_Template_1_SubArrays {
 	public static void main(String[] args) {
 		int[] arr = { 1, 4, 2 };
 		int length = arr.length;
