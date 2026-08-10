@@ -1,6 +1,6 @@
 package com.faang.array.basic;
 
-public class MissingNumberSingle {
+public class _05_02_MissingNumberSingle {
 	public static void main(String[] args) {
 		int[] array = { 1, 2, 4, 5 };
 		int length = array.length;

@@ -3,7 +3,7 @@ package com.faang.array.basic;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FrequencyOfElements {
+public class _02_04_FrequencyOfElements {
 	public static void main(String[] args) {
 		int[] array = { 1, 2, 2, 2, 7, 7, 9, 9, 7, 1 };
 		int length = array.length;

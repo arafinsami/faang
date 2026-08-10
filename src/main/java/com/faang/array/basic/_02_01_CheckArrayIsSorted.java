@@ -1,6 +1,6 @@
 package com.faang.array.basic;
 
-public class CheckArrayIsSorted {
+public class _02_01_CheckArrayIsSorted {
 	public static void main(String[] args) {
 		int[] arr = { 2, 1, 3, 4, 9, 7, 6 };
 		int length = arr.length;
@@ -11,6 +11,6 @@ public class CheckArrayIsSorted {
 				break;
 			}
 		}
-		System.out.println(isSorted ? "array sorted" : "not sorted");
+		System.out.println(isSorted? "sorted": "not sorted");
 	}
 }
