@@ -11,6 +11,32 @@ public class _07_03_AllSubArrays {
 			prefix[i] = prefix[i - 1] + arr[i];
 		}
 		int total = 0;
+		
+		/**
+		 * ALL POSSIBLE SUBARRAYS
+		 *
+		 * So visually:
+		 *
+		 * left=0: [1]
+		 *         [1,4]
+		 *         [1,4,2]
+		 *         [1,4,2,5]
+		 *         [1,4,2,5,3]
+		 *
+		 * left=1: [4]
+		 *         [4,2]
+		 *         [4,2,5]
+		 *         [4,2,5,3]
+		 *
+		 * left=2: [2]
+		 *         [2,5]
+		 *         [2,5,3]
+		 *
+		 * left=3: [5]
+		 *         [5,3]
+		 *
+		 * left=4: [3]
+		 */
 		for (int left = 0; left < length; left++) {
 			for (int right = left; right < length; right++) {
 				int subArrayLength = right - left + 1;
