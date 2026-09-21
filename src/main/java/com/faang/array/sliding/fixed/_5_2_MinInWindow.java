@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-public class _5_MinInWindow {
+public class _5_2_MinInWindow {
 	public static void main(String[] args) {
 		int[] array = { 1, 4, 2, 5 };
 		int length = array.length;
