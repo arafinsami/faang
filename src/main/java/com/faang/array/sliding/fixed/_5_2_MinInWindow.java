@@ -5,6 +5,30 @@ import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
+/*
+Minimum in Every Window of Fixed Size K
+
+1. Build / slide the window for each index:
+
+      i) Remove indices from the front that are outside the current window
+         {deque.peekFirst() < index - windowSize + 1}
+
+      ii) Remove indices from the back whose values are greater
+          than the current element
+          {array[deque.peekLast()] > array[index]}
+
+      iii) Add the current index to the back of the deque
+
+2. Process the window:
+
+      i) When the first complete window is formed
+         {index >= windowSize - 1}
+
+      ii) The index at the front of the deque represents
+          the minimum element of the current window
+
+      iii) Add {array[deque.peekFirst()]} to the result
+*/
 public class _5_2_MinInWindow {
 	public static void main(String[] args) {
 		int[] array = { 1, 4, 2, 5 };
