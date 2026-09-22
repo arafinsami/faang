@@ -1,5 +1,19 @@
 package com.faang.array.sliding.fixed;
 
+/*
+Maximum Sum Sub array of Fixed Size K
+
+1. Build the first window
+      i) Add array[index] to windowSum
+
+2. Process the first window
+      i) Set maxSum = windowSum
+
+3. Slide the window:
+      i)   Get the left element  {array[index - windowSize]} and subtract it
+      ii)  Get the right element {array[index]} and add it
+      iii) Update the answer {maxSum}
+*/
 public class _1_1_MaximumSumSubArray {
 	public static void main(String[] args) {
 		int[] array = { 1, 4, 2, 5 };
