@@ -1,4 +1,4 @@
-package com.faang.array.prefixsum;
+package com.faang.array.subarray;
 
 
 /**
